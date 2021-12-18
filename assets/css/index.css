@@ -1,0 +1,93 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+/* Background Color: #0052a3 */
+/* https://coolors.co/3fd2c7-00a1e0-0052a3-2b2f22-f3f3f4 */
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hahmlet', serif;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0%),
+    linear-gradient(-45deg, rgba(0, 0, 0, 0.9) 45%, rgba(0, 82, 163, 1) 0%);
+}
+
+#name {
+    color: black;
+    font-size: 2rem;
+    margin-left: 3rem;
+    align-self: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: black;
+}
+
+a {
+    align-self: center;
+    font-size: 2rem;
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav-links {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#myself {
+    border-radius: 50%;
+    height: 10em;
+    margin: 0 auto;
+}
+
+#avatar {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.social {
+    display: grid;
+    align-self: center;
+
+    flex: 33.3%;
+}
+
+#socials {
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 3rem;
+}
+
+#header {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #00a1e0;
+    width: 100vw;
+    gap: 5vw;
+    z-index: 1000;
+    position: relative;
+}
+
+#profile {
+    min-width: 600px;
+    max-width: 60vw;
+    background-color: aqua;
+    margin: 2rem auto 0;
+}
+
+#role {
+    font-size: 3em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
